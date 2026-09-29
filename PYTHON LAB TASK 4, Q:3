@@ -1,0 +1,8 @@
+CHECK WETHER THE ENTER NUMBER:
+students = ["Narendar", "Nitesh", "Kantesh", "Sahil", "Lucky"]
+name = input("Enter a student name: ")
+
+if name in students:
+    print("Student Found")
+else:
+    print("Student Not Found")
